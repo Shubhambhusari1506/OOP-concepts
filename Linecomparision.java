@@ -16,9 +16,9 @@ import java.util.Scanner;
 
 
 
-		static void equal() {
-		boolean result = length.equals(length1);
-		if(result) {
+		static void compare() {
+		int result = length.compareTo(length1);
+		if(result == 0) {
 		System.out.println("Line1 and Line2 are equal in Length");
 			}else {
 		System.out.println("Line1 and Line2 are not equal in Length");
@@ -62,7 +62,7 @@ import java.util.Scanner;
 			System.out.println("Length of Line1: "+length);
 			System.out.println("length of line2:"+length1);
 
-				equal();
+				compare();
 
 	}
 }
